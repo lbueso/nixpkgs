@@ -122,7 +122,9 @@ c.url.searchengines = {
     "DEFAULT": "http://34.89.80.98/searx/?q={}",
     "g": "https://www.google.com/search?q={}",
     "yt": "https://www.youtube.com/search?q={}",
-    "wk": "https://en.wikipedia.org/wiki/{}"
+    "wk": "https://en.wikipedia.org/wiki/{}",
+    "pk": "https://nixos.org/nixos/packages.html?nixpkgs-unstable&query={}",
+    "op": "https://nixos.org/nixos/options.html#{}"
 }
 c.scrolling.smooth = True
 c.editor.command = ["kitty", "-e", "emacs -q -nw '{}'"]

@@ -7,6 +7,7 @@
       ./lib/cli-tools.nix
       ./lib/programs.nix
       ./lib/overlays.nix
+      ./private/mail.nix
     ];
 
   # Let Home Manager install and manage itself.

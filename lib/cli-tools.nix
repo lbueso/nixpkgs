@@ -17,6 +17,7 @@
     enable = true;
     userName  = "Luis Eduardo Bueso de Barrio";
     userEmail = "luiseduardobueso96@gmail.com";
+    package = pkgs.gitAndTools.gitSVN;
   };
 
   programs.password-store = {
