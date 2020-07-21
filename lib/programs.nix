@@ -67,8 +67,8 @@
 
   xresources.properties = {
     # tango color  scheme
-    "URxvt.foreground" = "#000000";
-    "URxvt.background" = "#FFFFFF";
+    "URxvt.foreground" = "#FFFFFF";
+    "URxvt.background" = "#000000";
     # black
     "URxvt.color0" =  "#2E3436";
     "URxvt.color8" =  "#555753";
