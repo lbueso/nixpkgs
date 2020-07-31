@@ -108,6 +108,7 @@
     options = { };
     extraConfig = ''
         set adjust-open width
+        set selection-clipboard clipboard
         map \< goto top
         map \> goto bottom
         map b navigate previous
