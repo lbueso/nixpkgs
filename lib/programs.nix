@@ -12,6 +12,7 @@
     feh
     mpv
     spotify
+    spotify-tui
     # utilities
     ranger
     qutebrowser
@@ -22,6 +23,8 @@
     tdesktop
     # programming...
     swiProlog
+    erlangR21
+    elixir
     # haskell
     stack
     haskellPackages.haskell-language-server
