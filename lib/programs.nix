@@ -1,8 +1,9 @@
 { config, pkgs, ... }: {
 
   home.packages = with pkgs; [
-    pkg-config
-    gcc
+    # pkg-config
+    # gcc
+    direnv
     # desktop environment
     xmobar
     rofi
@@ -16,23 +17,24 @@
     # utilities
     ranger
     qutebrowser
-    cmake
+    # cmake
+    # gnumake
     syncthing-gtk
     poppler_utils
     # social media
     tdesktop
     # programming...
-    swiProlog
-    erlangR21
-    elixir
+    # swiProlog
+    # erlangR21
+    # elixir
     # haskell
-    stack
-    haskellPackages.haskell-language-server
+    # stack
+    # haskellPackages.haskell-language-server
     # latex
     texlive.combined.scheme-full
     python37Packages.pygments
     # python
-    python36Full
+    # python36Full
     # aspell and dictionaries
     aspell
     aspellDicts.es

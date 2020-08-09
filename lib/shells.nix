@@ -8,6 +8,7 @@ in
 
   programs.zsh = {
     enable = true;
+    enableCompletion = true;
     inherit shellAliases;
     oh-my-zsh = {
       enable = true;
@@ -19,7 +20,9 @@ in
 
       theme = "gentoo";
     };
-
+    initExtra = ''
+      eval "$(direnv hook zsh)"
+    '';
     plugins = [
       {
         name = "zsh-autosuggestions";
@@ -40,7 +43,6 @@ in
         };
       }
     ];
-
   };
 
 }

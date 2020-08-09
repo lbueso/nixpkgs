@@ -1,5 +1,11 @@
 { config, pkgs, ... }: {
 
+  services.lorri.enable = true;
+
+  services.emacs.enable = true;
+
+  services.syncthing.enable = true;
+
   services.gpg-agent = {
     enable = true;
     pinentryFlavor = "qt";
@@ -7,7 +13,6 @@
     maxCacheTtl = 34560000;
   };
 
-  # TODO emacs, emacs-telega, emacs-mail
   services.spotifyd = {         # working but the service does not start correctly
     enable = true;
     settings = {
@@ -21,10 +26,6 @@
       };
     };
   };
-
-  services.emacs.enable = true;
-
-  services.syncthing.enable = true;
 
   services.picom = {
     enable = true;

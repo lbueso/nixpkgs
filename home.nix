@@ -16,6 +16,7 @@
   home.sessionVariables = {
     EDITOR = "emacsclient -c -nw";
     TERMINAL = "urxvtc";
+    FILE_MANAGER = "ranger";
   };
 
   home.stateVersion = "20.03";
