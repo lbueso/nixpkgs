@@ -1,3 +1,0 @@
-[submodule "private"]
-	path = private
-	url = git@git.lbueso.com:/srv/git/configs/nixpkgs-private.git
