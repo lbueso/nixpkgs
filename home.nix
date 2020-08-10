@@ -2,12 +2,11 @@
 
   imports =
     [
+      ./lib/overlays.nix
       ./lib/shells.nix
       ./lib/services.nix
-      ./lib/cli-tools.nix
-      ./lib/programs.nix
-      ./lib/overlays.nix
-      ./private/mail.nix
+      ./home/programs.nix
+      ./home/private/mail.nix
     ];
 
   # Let Home Manager install and manage itself.

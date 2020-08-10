@@ -2,8 +2,6 @@
 
   services.lorri.enable = true;
 
-  services.emacs.enable = true;
-
   services.syncthing.enable = true;
 
   services.gpg-agent = {
@@ -30,17 +28,6 @@
   services.picom = {
     enable = true;
     vSync = true;
-  };
-
-  systemd.user.services.emacs-mail = {
-    Unit = {
-      Description = "Emacs text editor as a mailclient";
-    };
-    Service = {
-      ExecStart = "${pkgs.emacs}/bin/emacs --daemon=mail";
-      ExecStop = "${pkgs.emacs}/bin/emacsclient -server-file=mail --eval '(kill-emacs)'";
-      Restart = [ "on-failure" ];
-    };
   };
 
   services.password-store-sync.enable = true;

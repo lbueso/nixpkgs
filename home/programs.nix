@@ -1,5 +1,14 @@
 { config, pkgs, ... }: {
 
+  imports =
+    [
+      ./emacs.nix
+      ./urxvt.nix
+      ./xdg-config.nix
+      ./xmonad.nix
+      ./zathura.nix
+    ];
+
   home.packages = with pkgs; [
     htop
     unzip
@@ -11,6 +20,20 @@
     mu
     tldr
     gnupg
+
+    direnv
+    # multimedia
+    feh
+    mpv
+    spotify-tui
+    # utilities
+    ranger
+    qutebrowser
+    # cmake
+    # gnumake
+    syncthing-gtk
+    # social media
+    tdesktop
   ];
 
   programs.git = {

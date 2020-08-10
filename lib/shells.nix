@@ -6,6 +6,12 @@ let shellAliases = {
 in
 {
 
+  home.sessionVariables = {
+    EDITOR = "emacsclient -c -nw";
+    TERMINAL = "urxvtc";
+    FILE_MANAGER = "ranger";
+  };
+
   programs.zsh = {
     enable = true;
     enableCompletion = true;
