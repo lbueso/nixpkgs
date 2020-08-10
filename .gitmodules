@@ -1,0 +1,9 @@
+[submodule "home/xmonad"]
+	path = home/xmonad
+	url = git@git.lbueso.com:/srv/git/configs/xmonad.git
+[submodule "home/emacs"]
+	path = home/emacs
+	url = git@git.lbueso.com:/srv/git/configs/emacs.git
+[submodule "home/private"]
+	path = home/private
+	url = git@git.lbueso.com:/srv/git/configs/nixpkgs-private.git
